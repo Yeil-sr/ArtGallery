@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "thumbnail": "../../public/assets/article1.jpg",
+        "thumbnail": "../assets/article1.jpg",
         "title": "Ways to Connect This Winter",
         "copy": "Our spectacular Neapolitan crèche is back on view this holiday season! Juxtaposing the miraculous with everyday life, the crèche tells the story of Christ’s birth using more than 200 painted terracotta figures staged in an elaborate environment inspired by 18th-century Naples. Engage in slow looking with friends and family and see what you can discover—through January 6 in Gallery 203."
     },
