@@ -13,7 +13,7 @@ const Artwork = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [showFullDescription, setShowFullDescription] = useState(false);
-  const [isFavorited, setIsFavorited] = useState(false); // Estado para favoritar
+  const [isFavorited, setIsFavorited] = useState(false); 
 
   useEffect(() => {
     const fetchArtwork = async () => {
@@ -94,7 +94,7 @@ const Artwork = () => {
           onClick={toggleFavorite}
           className={`favorite_button ${isFavorited ? "favorited" : ""}`}
         >
-          {isFavorited ? <FaBookmark /> : <FaRegBookmark />} {/* Ícones de salvar */}
+          {isFavorited ? <FaBookmark /> : <FaRegBookmark />}
         </button>
       </div>
       <div className="container_information">

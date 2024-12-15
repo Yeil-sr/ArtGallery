@@ -5,7 +5,7 @@ const SectionBox = () => {
   return (
     <div className="container_sectionBox">
       <div className="sectionBox_photoCover">
-        <img src="../../../public/assets/photobox.jpg" width="500px" alt="" />
+        <img src="../../../assets/photobox.jpg" width="500px" alt="" />
       </div>
       <div className="sectionBox_description">
         <div className="sectionBox_title">

@@ -13,7 +13,7 @@ const MenuBar = () => {
     <nav className="menu-bar">
       <div className="container_logo">
         <div className="logo">
-          <img src="../../../../public/assets/logo.jpeg" alt="logo" width="36px" />
+          <img src="../../../assets/logo.jpeg" alt="logo" width="36px" />
         </div>
         <h1>ArtGallery</h1>
       </div>
