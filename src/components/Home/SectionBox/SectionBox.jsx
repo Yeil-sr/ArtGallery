@@ -1,5 +1,6 @@
 import React from "react";
 import "./SectionBox.css";
+import { Link } from "react-router-dom";
 
 const SectionBox = () => {
   return (
@@ -24,7 +25,7 @@ const SectionBox = () => {
           </p>
 
           <div className="sectionBox_button">
-            <a href="/artworks" >Colecionar</a>
+            <Link href="/artworks" >Colecionar</Link>
           </div>
         </div>
       </div>
