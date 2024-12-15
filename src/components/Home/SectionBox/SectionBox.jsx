@@ -25,7 +25,7 @@ const SectionBox = () => {
           </p>
 
           <div className="sectionBox_button">
-            <Link href="/artworks" >Colecionar</Link>
+            <Link to="/artworks" >Colecionar</Link>
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ const ArticleList = () => {
   return (
     <div className="container_articleList">
       {articles.map((article) => (
-        <Link key={article.id} href={`/article/${article.id}`} className="article_link">
+        <Link key={article.id} to={`/article/${article.id}`} className="article_link">
           <ArticleCard title={article.title} thumbnail={article.thumbnail} />
         </Link>
       ))}

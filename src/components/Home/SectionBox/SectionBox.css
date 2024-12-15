@@ -39,7 +39,7 @@
   margin-top: 30px;
 }
 
-.sectionBox_button > a {
+.sectionBox_button > Link {
   font-size: 1rem;
   background-color: #3ebbf8;
   color: white;
@@ -49,7 +49,7 @@
   transition: background-color 0.3s ease;
 }
 
-.sectionBox_button > a:hover {
+.sectionBox_button > Link:hover {
   background-color: #2a8ec8;
 }
 
@@ -76,7 +76,7 @@
     font-size: 0.9rem;
   }
 
-  .sectionBox_button > a {
+  .sectionBox_button > Link {
     font-size: 0.9rem;
     padding: 8px 16px;
   }

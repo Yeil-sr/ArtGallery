@@ -3,10 +3,10 @@
   flex-wrap: wrap;
 }
 
-.container_articleList a{
+.container_articleList Link{
   text-decoration: none;
 }
 
-.container_articleList a:active{
+.container_articleList Link:active{
   text-decoration: none;
 }
