@@ -1,4 +1,3 @@
-// useArtworks.jsx
 import { useState, useEffect } from "react";
 
 const BASE_URL = "https://api.artic.edu/api/v1";
@@ -24,14 +23,16 @@ const useArtworks = (page = 1, limit = 8) => {
         .map((art) => ({
           id: art.id,
           title: art.title,
-          thumbnail: `https://www.artic.edu/iiif/2/${art.image_id}/full/200,/0/default.jpg`,
-          category: art.classification_title,
-          artist: art.artist_title,
+          thumbnail: `https://www.artic.edu/iiif/2/${art.image_id}/full/843,/0/default.jpg`,
+          category: art.classification_title || "Unknown",
+          artist: art.artist_title || "Unknown",
         }))
-        .sort((a, b) => a.id - b.id);
+        
 
-      setArtworks(artworksData);
-      setHasMore(artworksData.length > 0);
+      setArtworks((prevArtworks) =>
+        page === 1 ? artworksData : [...prevArtworks, ...artworksData]
+      );
+      setHasMore(artworksData.length === limit);
     } catch (err) {
       setError("Failed to fetch artworks.");
     } finally {

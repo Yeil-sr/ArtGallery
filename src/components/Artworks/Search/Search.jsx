@@ -15,13 +15,12 @@ const Search = ({ onSearch }) => {
       );
       const data = await response.json();
 
-      // Transform the data to include the full image URL
       const artworks = data.data.map((artwork) => ({
         id: artwork.id,
         title: artwork.title,
         imageUrl: artwork.image_id
           ? `https://www.artic.edu/iiif/2/${artwork.image_id}/full/843,/0/default.jpg`
-          : null, // Handle cases where there is no image
+          : null, 
       }));
 
       onSearch(artworks);

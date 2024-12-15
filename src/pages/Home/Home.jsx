@@ -14,7 +14,7 @@ const Home = () => {
       <TitleSection title="COMPRE POR FORMATO" paragraph="Escolha o formato que você precisa. E navegue pelas obras de artes mais incríveis."/>
       <CollectionList/>
       <hr />
-      <TitleSection title="DESCUBRA SEU ESTILO!" paragraph="Você é apaixonado por arte e se encanta com as coleções icônicas do Instituto de Artes de Chicago?"/>
+      <TitleSection title="PUBLICAÇÕES" paragraph="Você é apaixonado por arte e se encanta com as coleções icônicas do Instituto de Artes de Chicago?"/>
       <ArticleList/>
       <hr />
       <SectionBox/>
