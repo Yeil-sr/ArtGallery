@@ -1,0 +1,83 @@
+.container_sectionBox {
+  padding: 50px;
+  margin: 50px;
+  background-color: #e7e7e7;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center; 
+  align-items: flex-start; 
+}
+
+.sectionBox_photoCover img {
+  max-width: 100%; 
+  height: 500px;
+}
+
+.sectionBox_description {
+  flex: 1;
+  max-width: 500px; 
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionBox_title > h1 {
+  font-size: 48px;
+  text-align: left;
+  font-weight: 500;
+
+}
+
+.sectionBox_title > p {
+  font-size: 1rem;
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.sectionBox_button {
+  margin-top: 30px;
+}
+
+.sectionBox_button > a {
+  font-size: 1rem;
+  background-color: #3ebbf8;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.sectionBox_button > a:hover {
+  background-color: #2a8ec8;
+}
+
+@media (max-width: 768px) {
+  .container_sectionBox {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sectionBox_photoCover img{
+    height: 250px;
+  }
+
+  .sectionBox_description {
+    max-width: 100%; 
+    text-align: center;
+  }
+
+  .sectionBox_title > h1 {
+    font-size: 32px;
+  }
+
+  .sectionBox_title > p {
+    font-size: 0.9rem;
+  }
+
+  .sectionBox_button > a {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}

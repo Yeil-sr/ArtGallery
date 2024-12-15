@@ -1,0 +1,12 @@
+.container_articleList{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container_articleList a{
+  text-decoration: none;
+}
+
+.container_articleList a:active{
+  text-decoration: none;
+}

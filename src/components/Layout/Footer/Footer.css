@@ -1,0 +1,136 @@
+.container_footer{
+  background-color: #333;
+  color: white;
+  padding: 30px 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.newsletter{
+  display: flex;
+  max-width: 350px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.newsletter > h1{
+  margin-bottom: 20px;
+}
+
+.newsletter > p{
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+
+.newsletter > input{
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+
+.newsletter .button > a{
+  border: solid 1px #000;
+  font-size: 12px;
+  font-weight: 400;
+  color: #333;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #e7e7e6;
+}
+
+ .button > a:hover{
+  color: white;
+  background-color: #000;
+  cursor: pointer;
+}
+
+.adress > ul{
+  list-style: none;
+}
+
+.adress > ul:last-child{
+  list-style: none;
+  margin-top: 20px;
+ 
+}
+
+.adress > ul> li{
+  color: #c7c7c7;
+  margin: 10px;
+}
+
+.adress > ul > li:first-child{
+  color: white;
+  font-weight: 400;
+}
+
+.contact > ul{
+    list-style: none;
+}
+
+.contact > ul> li{
+  margin: 10px;
+}
+
+.about > ul{
+  list-style: none;
+}
+
+.about > ul> li{
+  margin: 10px;
+}
+
+
+.follow > ul{
+  list-style: none;
+}
+
+.follow > ul> li{
+  margin: 10px;
+}
+.follow > ul > li > a{
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+
+}
+
+.copyright{
+  text-align: center;
+  background-color: #333;
+  color: white;
+  font-size: 12px;
+}
+  
+@media screen and (max-width:600px){
+  .container_footer{
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about > ul{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 20px;
+  }
+
+  .adress > ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+   }
+
+  .contact > ul{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+  
+}
